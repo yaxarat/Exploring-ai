@@ -14,19 +14,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kohonen/Utility.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="897">
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kohonen/Kohonen_Normalized.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="124" selection-start-line="124" selection-end-line="126" selection-end-column="32" />
+              <folding>
+                <element signature="e#17#64#0" expanded="true" />
+                <element signature="e#472#588#2" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/kohonen/Neuron2.kt">
+        <entry file="file://$PROJECT_DIR$/src/kohonen/Kohonen_Original.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1472">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="162">
+              <caret line="78" column="58" lean-forward="true" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
               <folding>
-                <element signature="e#17#55#0" expanded="true" />
+                <element signature="e#17#91#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,6 +69,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Utility.normalize</find>
+      <find>(</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>doubleArrayOf(</replace>
+    </replaceStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -64,8 +86,12 @@
         <option value="$PROJECT_DIR$/src/kohonen/Main.kt" />
         <option value="$PROJECT_DIR$/src/Data/Ex1_data.txt" />
         <option value="$PROJECT_DIR$/src/kohonen/Neuron_2.kt" />
-        <option value="$PROJECT_DIR$/src/kohonen/Utility.kt" />
+        <option value="$PROJECT_DIR$/src/kohonen/Neuron3.kt" />
         <option value="$PROJECT_DIR$/src/kohonen/Neuron2.kt" />
+        <option value="$PROJECT_DIR$/src/kohonen/Kohonen.kt" />
+        <option value="$PROJECT_DIR$/src/kohonen/Utility.kt" />
+        <option value="$PROJECT_DIR$/src/kohonen/Kohonen_Normalized.kt" />
+        <option value="$PROJECT_DIR$/src/kohonen/Kohonen_Original.kt" />
       </list>
     </option>
   </component>
@@ -113,7 +139,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544391002243" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544409349371" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -130,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.kohonen.Kohonen_OriginalKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -143,14 +169,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kohonen.Neuron2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="kohonen.Kohonen_NormalizedKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="kohonen.Neuron2Kt" />
+      <option name="MAIN_CLASS_NAME" value="kohonen.Kohonen_NormalizedKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kohonen.Kohonen_OriginalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Code" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kohonen.Kohonen_OriginalKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kohonen.Neuron3Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Code" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kohonen.Neuron3Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,7 +218,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.kohonen.Neuron2Kt" />
+        <item itemvalue="Kotlin.kohonen.Kohonen_OriginalKt" />
+        <item itemvalue="Kotlin.kohonen.Kohonen_NormalizedKt" />
+        <item itemvalue="Kotlin.kohonen.Neuron3Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -181,12 +235,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544374290215</updated>
       <workItem from="1544374291913" duration="165000" />
-      <workItem from="1544374480993" duration="10410000" />
+      <workItem from="1544374480993" duration="20267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10575000" />
+    <option name="totallyTimeSpent" value="20432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="1440" extended-state="0" />
@@ -199,10 +253,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295796" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295796" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18618618" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.481982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -251,19 +305,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kohonen/Utility.kt">
+    <entry file="file://$PROJECT_DIR$/src/kohonen/Neuron3.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="460">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="e#17#63#0" expanded="true" />
+            <element signature="n#!!block;n#kohonen#0;n#!!block;n#Neuron3#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kohonen/Neuron2.kt">
+    <entry file="file://$PROJECT_DIR$/src/kohonen/Utility.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="897">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/random/Random.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kohonen/Kohonen_Normalized.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="124" selection-start-line="124" selection-end-line="126" selection-end-column="32" />
           <folding>
-            <element signature="e#17#55#0" expanded="true" />
+            <element signature="e#17#64#0" expanded="true" />
+            <element signature="e#472#588#2" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kohonen/Kohonen_Original.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="78" column="58" lean-forward="true" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+          <folding>
+            <element signature="e#17#91#0" expanded="true" />
           </folding>
         </state>
       </provider>

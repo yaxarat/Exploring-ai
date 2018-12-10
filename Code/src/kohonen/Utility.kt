@@ -1,5 +1,7 @@
 package kohonen
 
+import java.util.ArrayList
+
 object Utility {
 
     fun parse(line: String): ArrayList<Double> {
@@ -19,14 +21,32 @@ object Utility {
         return Pair(x1 / factor, x2 / factor)
     }
 
-    fun euclidDistance(v1: ArrayList<Double>, v2: DoubleArray): Double {
+    fun euclideanDistance(arg1: ArrayList<Double>, arg2: DoubleArray): Double {
         var sum = 0.0
-
-        for (i in v1.indices) {
-            sum += (v1[i] - v2[i]) * (v1[i] - v2[i])
+        for (i in arg1.indices) {
+            sum += (arg1[i] - arg2[i]) * (arg1[i] - arg2[i])
         }
-
         return Math.sqrt(sum)
     }
 
+    fun findNearest(weight: ArrayList<Double>, neurons: ArrayList<DoubleArray>): Int {
+        var distance = Utility.euclideanDistance(weight, neurons[0])
+        var nearest = 0
+
+        for (index in 1 until neurons.size) {
+            val newDistance = Utility.euclideanDistance(weight, neurons[index])
+
+            if (distance > newDistance) {
+                distance = newDistance
+                nearest = index
+            }
+        }
+        return nearest
+    }
+
+    // Use for data normalization
+    fun normalizeAndExportData() {
+        Kohonen_Normalized.import()
+        Kohonen_Normalized.export()
+    }
 }

@@ -150,7 +150,7 @@ Random - For 7 neurons:
  
 ---
 ### Discussion
-From the comparisons above, for both the normalized and original, it is clear that when dealing with neurons, the importance of initial weights are paramount. When weights are manually assigned as in the set up section,  the final position of the neurons comes out to be very close to that of their starting weights observed from the initial data exploration. In addition, defined weights also reduce the need for large iterations, for any iteration over 2 will yield desired results.
+From the comparisons above, for both the normalized and original, it is clear that when dealing with neurons, the importance of initial weights are paramount. When weights are manually assigned as in the set up section,  the final position of the neurons comes out to be very close to that of their starting weights observed from the initial data exploration. In addition, defined weights also reduce the need for large iterations, for low iteration counts will also yield desired results.
 
 ---
 ## 2.2. Bayesian classifier
@@ -232,7 +232,7 @@ The following controller graph used above information.
 
 ![Image](https://www.dropbox.com/s/4ylwehibxlgj86x/BJxwHXjk4_rkJ9N_21N.png?dl=1)
 
-When we compare these two graphs, we can notice that the controller is much more blocky due to it's categorization into sections. The best way to get a smoother controller that more closely represents the control surface would be to have more categories and have more grid sections.
+When we compare these two graphs, we can notice that the controller is much more blocky due to it's categorization into sections. However, this also makes it easier to do calculation over the map. To get a smoother controller, having more categories and have more grid sections will help.
 
 ---
 ### Testing

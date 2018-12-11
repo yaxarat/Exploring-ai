@@ -21,7 +21,7 @@ object Utility {
         return Pair(x1 / factor, x2 / factor)
     }
 
-    fun euclideanDistance(arg1: ArrayList<Double>, arg2: DoubleArray): Double {
+    private fun euclideanDistance(arg1: ArrayList<Double>, arg2: DoubleArray): Double {
         var sum = 0.0
         for (i in arg1.indices) {
             sum += (arg1[i] - arg2[i]) * (arg1[i] - arg2[i])

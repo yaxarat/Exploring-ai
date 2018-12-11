@@ -1,7 +1,6 @@
 package kohonen
 
 import java.io.File
-import java.util.ArrayList
 import kotlin.random.Random
 
 object Kohonen_Original {
@@ -114,7 +113,7 @@ fun main() {
     Kohonen_Original.neuron2()
     Kohonen_Original.neuron3()
     Kohonen_Original.neuron7()
-    Kohonen_Normalized.random(2)
-    Kohonen_Normalized.random(3)
-    Kohonen_Normalized.random(7)
+    Kohonen_Original.random(2)
+    Kohonen_Original.random(3)
+    Kohonen_Original.random(7)
 }

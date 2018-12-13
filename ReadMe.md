@@ -166,7 +166,8 @@ Total count for training dataset is 112
 Includes 35 of label 1
 Includes 36 of label 2
 Includes 41 of label 3
-Class statistics: Class label: 1, mean: -1.8726114285714288, range: -2.2917 ~ -1.4179, stdv: 0.1845953919428397
+Class statistics: 
+Class label: 1, mean: -1.8726114285714288, range: -2.2917 ~ -1.4179, stdv: 0.1845953919428397
 Class label: 2, mean: 0.4727508888888889, range: -0.11823 ~ 1.1244, stdv: 0.2616939989055047
 Class label: 3, mean: 1.4641917073170734, range: 0.95286 ~ 2.2981, stdv: 0.2721431533613795
 Probability of a randomly selected entry being in: 
